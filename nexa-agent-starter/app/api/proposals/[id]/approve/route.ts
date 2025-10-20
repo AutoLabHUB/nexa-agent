@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { update } from "../../../../lib/airtable";
+import { update } from "../../../../../lib/airtable";
 
 
 

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { create, findByField, upsertByEmail } from "../../../src/lib/airtable";
-import { extractDomain, nowISO } from "../../../src/lib/utils";
+import { create, findByField, upsertByEmail } from "../../../lib/airtable";
+import { extractDomain, nowISO } from "../../../lib/utils";
+
 
 
 

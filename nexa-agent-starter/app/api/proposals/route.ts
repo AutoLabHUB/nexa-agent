@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { create, update } from "@/src/lib/airtable";
+import { create, update } from "@/lib/airtable";
 
 const TBL_P = process.env.AIRTABLE_TBL_PROPOSALS!;
 

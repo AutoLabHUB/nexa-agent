@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { create } from "../../../src/lib/airtable";
+import { create } from "../../../lib/airtable";
 
 
 

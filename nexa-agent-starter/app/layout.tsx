@@ -1,13 +1,16 @@
-// app/layout.tsx
 export const metadata = {
   title: "Nex-a Agent",
-  description: "AI agent API for Nex-a ops",
+  description: "AI agent backend for Nex-a operations",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body style={{ margin: 0, fontFamily: "ui-sans-serif, system-ui" }}>
+      <body style={{ margin: 0, fontFamily: 'system-ui, sans-serif' }}>
         {children}
       </body>
     </html>

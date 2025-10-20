@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { create } from "@/src/lib/airtable";
+import { create } from "@/lib/airtable";
+
 
 const TBL_D = process.env.AIRTABLE_TBL_DISCOVERIES!;
 
